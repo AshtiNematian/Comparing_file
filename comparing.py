@@ -1,13 +1,13 @@
 import os
 import pyodbc
 
-# '192.168.100.125'
+
 # Define the connection string
 server = input("Please enter SQL Server's name or IP address:")
 server = server  # Replace with your SQL Server's name or IP address
-database = 'DbArchive_Master'  # Replace with the name of your database
-username = 'sa'  # Replace with your SQL Server username
-password = 'Safa-qc-3'  # Replace with your SQL Server password
+database = 'r'  # Replace with the name of your database
+username = ''  # Replace with your SQL Server username
+password = ''  # Replace with your SQL Server password
 
 # Create the connection string
 connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}}' \
