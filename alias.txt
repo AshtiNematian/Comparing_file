@@ -1,0 +1,4 @@
+notepad $PROFILE
+function myproject {
+    python "C:\Users\NematianA\PycharmProjects\pythonProject\main.py" $args
+}
